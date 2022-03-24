@@ -13,10 +13,12 @@ import { RouterLink, RouterView } from "vue-router";
     />
 
     <div class="wrapper">
-      <!-- <HelloWorld msg="You did it!" /> -->
+      <HelloWorld msg="You did it!" />
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/">
+          <span class="material-icons"> favorite_border </span> Home</RouterLink
+        >
         <RouterLink to="/articles">Articles</RouterLink>
         <RouterLink to="/article">Ajouter un article</RouterLink>
       </nav>

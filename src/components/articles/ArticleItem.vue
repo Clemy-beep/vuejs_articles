@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ article?.title }}</h1>
+    <h2>{{ article?.title }}</h2>
     <p>{{ article?.content }}</p>
   </div>
 </template>
@@ -9,15 +9,7 @@ export default {
   props: {
     article: Object,
   },
-  methods: {
-    
-  },
-  mounted(){
-    
-  },
-  computed(){
-   
-  }
+  methods: {},
 };
 </script>
 
